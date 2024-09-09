@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+.negro{
+    background-color: #000000;
+}
+.blanco{
+    color: white;
+    text-align: left;
+}
+
+
+.boton1{
+	position: relative;
+	top: 700px;
+	left: 100px;
+	width: 250px;
+	height: 50px;
+	z-index: 4
+   
+}
+
+.play_1{
+	position: relative;
+	left: 170px;
+	top:703px;
+  z-index: 5;
+	
+}
+
+.titulo1{
+	width: auto;
+	position: relative;
+	top: 100px;
+	z-index: 3;
+}
+
+.contenedor2{   
+   width: 100%;
+	height: 1000px;	
+	position: relative;
+	top: -180px;
+ }
+.fondo_1{
+	position: absolute;
+	top: 0px;
+	
+}
+
+.logo_1{
+	position: relative;
+	width: 500px;
+	top: 450px;
+	right: 200px;
+z-index:4;
+}
+
+.parrafo_1{
+	width: 400px;
+	height: 100px;
+	position: relative;
+	top: 500px;
+	color: white;
+	left: 110px;
+	z-index: 4;
+	
+}
+
+.espaciado{
+	margin: 100px 0 0 0;
+}
+.espaciado2{
+
+	position: relative;
+	right: -1100px;
+	
+	
+}
+
+
+
+footer{
+	padding: 20px 10%;
+    background-color:  black;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+.redes{
+	width: 32%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	}
+.redes i{
+	font-size: 30px;
+}
+.redes a{
+	color: white;
+    text-decoration: none;
+	transition: 1s all cubic-bezier(0,1.24,.98,-0.29);
+	 
+}
+.redes a:hover{
+	transform: scale(1.5);
+}
+.menu_inf{
+	width: 32%;
+}
+.contacto_info{
+	width: 32%;
+}
+
+.menu_inf ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+.menu_inf a{
+	color: white;
+	text-decoration: none;
+	line-height: 30px;
+	
+	
+}
+
+.menu_inf a:hover{
+	text-decoration: underline;
+	text-decoration-color:  white;
+}
+
+.contacto_info ul{
+	list-style-type: none;
+}
+.contacto_info a {
+	text-decoration: none;
+	color: white;
+	
+}
